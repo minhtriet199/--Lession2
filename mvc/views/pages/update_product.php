@@ -24,7 +24,7 @@
             <div class="input-group mb-3">
                 <div class="custom-file">
                     <input type="file" class="custom-file-input" id="thumb" name="thumb" value="">
-                    <label class="custom-file-label" class="show_image"></label>
+                    <label class="custom-file-label" class="image_name"></label>
                     <input type="hidden" value="<?= $data['products']['thumb']?>" name="old">
                 </div>
             </div>
